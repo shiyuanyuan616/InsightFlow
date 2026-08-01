@@ -1,0 +1,90 @@
+frontend/
+src/
+    api/
+    assets/
+    components/
+    views/
+        Upload.vue
+        Dashboard.vue
+        Analysis.vue
+        Prediction.vue
+    router/
+    store/
+    utils/
+App.vue
+main.js
+
+
+
+api/
+upload.py
+analysis.py
+predict.py
+
+POST /upload
+GET /sales
+GET /dashboard
+POST /predict
+
+
+
+service/
+etl.py
+analysis.py
+predict.py
+report.py
+
+database/
+connection.py
+crud.py
+
+
+schemas/
+order.py
+user.py
+
+models/
+order.py
+product.py
+customer.py
+
+
+utils/
+logger.py
+config.py
+helpers.py
+
+
+notebooks/
+EDA.ipynb
+Feature.ipynb
+
+
+datasets/
+raw/
+processed/
+
+
+
+sql/
+create_table.sql
+init.sql
+
+
+query/
+sales.sql
+rfm.sql
+retention.sql
+
+
+doc/
+architecture.md
+api.md
+database.md
+
+
+model/
+train.py
+predict.py
+saved_model/
+sales.pkl
