@@ -1,0 +1,13 @@
+| 字段 | 中文含义 | 通俗解释 |
+|---|---|---|
+| `date` | 日期时间 | 这条记录对应的时间，可以提取月份、小时、星期等信息 |
+| `Usage_kWh` | 用电量 | 对应记录时段内用了多少电，单位 kWh，即“度电” |
+| `Lagging_Current_Reactive.Power_kVarh` | 滞后无功电能 | 与电流滞后于电压的电气状态有关，常见于电机等感性负载；单位 kVarh |
+| `Leading_Current_Reactive_Power_kVarh` | 超前无功电能 | 与电流超前于电压的电气状态有关，常见于电容补偿等情况；单位 kVarh |
+| `CO2(tCO2)` | CO₂ 相关指标 | **字段名称和网页单位存在矛盾，需要进一步核实** |
+| `Lagging_Current_Power_Factor` | 滞后功率因数 | 滞后状态下的功率因数，页面单位为百分比 |
+| `Leading_Current_Power_Factor` | 超前功率因数 | 超前状态下的功率因数，页面单位为百分比 |
+| `NSM` | 从当天午夜开始经过的秒数 | 用数字表示一天中的时间，例如早上 8 点对应 28,800 秒 |
+| `WeekStatus` | 工作日或周末 | 区分 Weekday、Weekend；实际 CSV 是文字还是数字，要读取后确认 |
+| `Day_of_week` | 星期几 | Monday、Tuesday 等 |
+| `Load_Type` | 负载类别 | 轻负载、中负载、最大负载；这个字段在截图下一页 |
